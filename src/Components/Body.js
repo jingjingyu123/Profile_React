@@ -3,6 +3,7 @@ import Home from './Home'
 import Image from './Image'
 import Videos from './Videos'
 import Projects from './Projects'
+import Messages from './Messages'
 import TabList from './TabList';
 
 export class Body extends Component{
@@ -17,8 +18,11 @@ export class Body extends Component{
         else if(activeTab==3){
             return <Videos/>
         }
-        else{
+        else if(activeTab==4){
             return <Projects/>
+        }
+        else{
+            return <Messages/>
         }
     }
   render(){

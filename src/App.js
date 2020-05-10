@@ -5,7 +5,9 @@ import Header from './Components/Header';
 import Tablist from './Components/TabList';
 import ScrollUpButton from "react-scroll-up-button";
  
+
 export class App extends Component{
+
   constructor(){
     super();
     this.state = {
@@ -15,7 +17,13 @@ export class App extends Component{
       this.setState({
         activeTab: id
       })
+      if(id == 1) document.title='Home';
+      else if(id==2) document.title='Images';
+      else if(id==3) document.title='Videos';
+      else if(id==4) document.title='Projects';
+      else document.title='Messages';
     }
+    document.title='Home';
   }
   render(){
     const tabs=[
@@ -34,6 +42,10 @@ export class App extends Component{
       {
         id:4,
         title:'Projects'
+      },
+      {
+        id:5,
+        title:'Messages'
       }
     ]
     return (
