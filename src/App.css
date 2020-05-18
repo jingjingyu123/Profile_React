@@ -252,7 +252,8 @@ h2{
   max-width:100%;
   transition:all 1s ease;
   cursor:pointer;
+  opacity: 1;
 }
 .Movies img:hover{
-  opacity: 40%;
+  opacity: 0.5;
 }
