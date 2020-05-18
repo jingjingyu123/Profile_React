@@ -21,7 +21,8 @@ export class App extends Component{
       else if(id==2) document.title='Images';
       else if(id==3) document.title='Videos';
       else if(id==4) document.title='Projects';
-      else document.title='Messages';
+      else if(id==5) document.title='Messages';
+      else document.title='Movies';
     }
     document.title='Home';
   }
