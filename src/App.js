@@ -46,6 +46,10 @@ export class App extends Component{
       {
         id:5,
         title:'Messages'
+      },
+      {
+        id:6,
+        title:'Movies'
       }
     ]
     return (

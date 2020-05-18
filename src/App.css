@@ -239,3 +239,20 @@ h2{
   box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
   padding: 10px 6px;
 }
+
+.Movies{
+  display:grid;
+  padding:20px;
+  grid-template-columns: repeat(auto-fill, minmax(200px,auto));
+  grid-gap:1rem; 
+  margin:auto;
+}
+.Movies img{
+  max-width:100%;
+  transition:all 1s ease;
+  cursor:pointer;
+  opacity: 1;
+}
+.Movies img:hover{
+  opacity: 0.5;
+}

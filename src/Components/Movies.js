@@ -39,7 +39,7 @@ axios.get('https://www.omdbapi.com/?i='+movie[0]+'&apikey=b780d44a')
           temp2=temp2+response.data.Ratings[i].Source+" "+response.data.Ratings[i].Value+"; ";
         }
         data[0]=data[0]+temp2;
-        photo[0]=data.Poster;
+        photo[0]=response.data.Poster;
       })
       .catch(function (error){
       })
@@ -54,7 +54,7 @@ axios.get('https://www.omdbapi.com/?i='+movie[1]+'&apikey=b780d44a')
           temp2=temp2+response.data.Ratings[i].Source+" "+response.data.Ratings[i].Value+"; ";
         }
         data[1]=data[1]+temp2;
-        photo[1]=data.Poster;
+        photo[1]=response.data.Poster;
       })
       .catch(function (error){
       })
@@ -69,7 +69,7 @@ axios.get('https://www.omdbapi.com/?i='+movie[2]+'&apikey=b780d44a')
           temp2=temp2+response.data.Ratings[i].Source+" "+response.data.Ratings[i].Value+"; ";
         }
         data[2]=data[2]+temp2;
-        photo[2]=data.Poster;
+        photo[2]=response.data.Poster;
       })
       .catch(function (error){
       })
@@ -84,7 +84,7 @@ axios.get('https://www.omdbapi.com/?i='+movie[3]+'&apikey=b780d44a')
           temp2=temp2+response.data.Ratings[i].Source+" "+response.data.Ratings[i].Value+"; ";
         }
         data[3]=data[3]+temp2;
-        photo[3]=data.Poster;
+        photo[3]=response.data.Poster;
       })
       .catch(function (error){
       })
@@ -99,7 +99,7 @@ axios.get('https://www.omdbapi.com/?i='+movie[4]+'&apikey=b780d44a')
           temp2=temp2+response.data.Ratings[i].Source+" "+response.data.Ratings[i].Value+"; ";
         }
         data[4]=data[4]+temp2;
-        photo[4]=data.Poster;
+        photo[4]=response.data.Poster;
       })
       .catch(function (error){
       })
@@ -114,7 +114,7 @@ axios.get('https://www.omdbapi.com/?i='+movie[5]+'&apikey=b780d44a')
           temp2=temp2+response.data.Ratings[i].Source+" "+response.data.Ratings[i].Value+"; ";
         }
         data[5]=data[5]+temp2;
-        photo[5]=data.Poster;
+        photo[5]=response.data.Poster;
       })
       .catch(function (error){
       })
@@ -128,7 +128,7 @@ axios.get('https://www.omdbapi.com/?i='+movie[6]+'&apikey=b780d44a')
           temp2=temp2+response.data.Ratings[i].Source+" "+response.data.Ratings[i].Value+"; ";
         }
         data[6]=data[6]+temp2;
-        photo[6]=data.Poster;
+        photo[6]=response.data.Poster;
       })
       .catch(function (error){
       })
@@ -142,7 +142,7 @@ axios.get('https://www.omdbapi.com/?i='+movie[7]+'&apikey=b780d44a')
           temp2=temp2+response.data.Ratings[i].Source+" "+response.data.Ratings[i].Value+"; ";
         }
         data[7]=data[7]+temp2;
-        photo[7]=data.Poster;
+        photo[7]=response.data.Poster;
       })
       .catch(function (error){
       })
